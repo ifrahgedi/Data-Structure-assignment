@@ -36,3 +36,29 @@ It includes examples of both linear and non-linear data structures along with ba
 
    git clone https://github.com/ifrahgedi/DataStructuresPython.git
 >>>>>>> f80583d (uploading data structures code)
+>>>>>>>
+>>>>>>> Members who participated;
+
+
+NAME
+BSCCS/2025/40813   Felicity Muturia
+
+BSSCS/2025/38710   Michael Ebenyo
+
+BSCCS/2025/40582   Olive Nyambura
+
+BSCCS/12025/39474  Mohamed Abdisamed
+
+BSCCS/2025/41758   Kirimi Kwira
+
+BSCCS/2025/42816   Kimani Synthia
+
+BSCCS/2025/38999   Ifrah Gedi
+
+BSCCS/2025/40317   Quentin Omwenga
+
+
+
+
+
+
