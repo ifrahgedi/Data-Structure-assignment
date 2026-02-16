@@ -56,7 +56,8 @@ BSCCS/2025/42816   Kimani Synthia
 BSCCS/2025/38999   Ifrah Gedi
 
 BSCCS/2025/40317   Quentin Omwenga
-BSCCS/2025/52984.  Valentine Nudi 
+
+BSCCS/2025/52984 Valentine Nudi 
 
 
 
