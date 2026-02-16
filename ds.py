@@ -121,12 +121,69 @@ class Graph:
         for node in self.graph:
             print(node, "->", self.graph[node])
 
+# ============================================
+# 6. ARRAY (List Implementation)
+# ============================================
+
+class Array:
+    def __init__(self):
+        self.array = []
+
+    # Add element
+    def add(self, value):
+        self.array.append(value)
+
+    # Remove element
+    def remove(self, value):
+        if value in self.array:
+            self.array.remove(value)
+
+    # Get element by index
+    def get(self, index):
+        if 0 <= index < len(self.array):
+            return self.array[index]
+        return "Index out of range"
+
+    # Display array
+    def display(self):
+        print(self.array)
+
+
+# ============================================
+# Example Usage
+# ============================================
+
+arr = Array()
+
+arr.add(10)
+arr.add(20)
+arr.add(30)
+
+arr.display()        # [10, 20, 30]
+
+print(arr.get(1))    # 20
+
+arr.remove(20)
+
+arr.display()        # [10, 30]
+
+
 
 # ============================================
 # TESTING ALL DATA STRUCTURES
 # ============================================
 
 if __name__ == "__main__":
+
+    print("\n--- ARRAY ---")
+    arr = []
+    arr.append(10)
+    arr.append(20)
+    arr.append(30)
+    print("Array elements:", arr)
+    print("First element:", arr[0])
+    arr.pop()
+    print("After pop:", arr)
 
     print("\n--- STACK ---")
     s = Stack()
